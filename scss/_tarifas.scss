@@ -1,0 +1,38 @@
+// TABLA DE TARIFAS
+section {
+    div {
+        width: 600px;
+
+        table {
+            background-color: map-get($palette, "azul3");
+            border-radius: 7px;
+            color: map-get($palette, "blanco");
+            font-weight: 300;
+            border-collapse: collapse;
+            text-align: left;
+            border-radius: 15px;
+            -webkit-box-shadow: 0px 0px 13px 18px rgb(133, 193, 233);
+            -moz-box-shadow: 0px 0px 13px 18px rgb(175, 214, 240);
+            box-shadow: 0px 0px 13px 18px rgba(180, 225, 255, 0.371);
+
+            thead {
+                background-color: map-get($palette, "azul2");
+                font-family: $fuente-secundaria;
+                font-weight: 700;
+            }
+
+            tr {
+                th {
+                    padding: 25px;
+                }
+
+                td {
+                    &:hover {
+                        background-color: map-get($palette, "azul5");
+                    }
+                }
+            }
+        }
+    }
+
+}
