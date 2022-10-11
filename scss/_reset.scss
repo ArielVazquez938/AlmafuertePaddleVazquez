@@ -8,5 +8,19 @@
 // GENERAL
 body {
     font-family: $fuente-principal;
-    background-color: map-get($palette, "azul4");
+    background-color: map-get($palette, "fondoWeb");
+    color: map-get($palette, "negro");
+    font-size: ($medida-estandar)-4px;
+}
+
+nav {
+    div {
+        ul {
+            li {
+                a {
+                    color: map-get($palette, "negro") !important;
+                }
+            }
+        }
+    }
 }

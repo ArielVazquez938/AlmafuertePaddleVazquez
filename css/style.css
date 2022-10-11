@@ -5,17 +5,23 @@
 
 body {
   font-family: "Rubik", sans-serif !important;
-  background-color: #85C1E9; }
+  background-color: #8bf710;
+  color: #000;
+  font-size: 16px; }
+
+nav div ul li a {
+  color: #000 !important; }
 
 div .formulario {
   width: 600px;
-  background-color: #85C1E9;
-  color: #fff;
+  background-color: #8bf710;
+  color: #000;
   border-radius: 15px;
   -webkit-box-shadow: 0px 0px 13px 18px #85c1e9;
   -moz-box-shadow: 0px 0px 13px 18px #afd6f0;
-  box-shadow: 0px 0px 13px 18px rgba(180, 225, 255, 0.371);
-  padding: 30px; }
+  box-shadow: 0px 0px 13px 18px rgba(97, 201, 68, 0.834);
+  padding: 30px;
+  margin: 30px; }
 
 div label {
   font-style: italic;
@@ -26,35 +32,37 @@ div input {
   font-style: italic; }
 
 div button {
-  background-color: #85C1E9;
+  background-color: #8bf710;
   border-radius: 5px;
   border: none;
   padding: 5px;
   text-transform: uppercase;
-  color: #fff;
+  color: #000;
   font-weight: 700; }
   div button:hover {
-    background-color: #6aeb1b;
-    color: #000; }
+    -webkit-box-shadow: 0px 0px 7px 10px #85c1e9;
+    -moz-box-shadow: 0px 0px 7px 10px #afd6f0;
+    box-shadow: 0px 0px 7px 10px rgba(97, 201, 68, 0.834); }
 
 section div {
   width: 600px; }
   section div table {
-    background-color: #5DADE2;
+    background-color: #9cff75fd;
     border-radius: 7px;
-    color: #fff;
+    color: #000;
     font-weight: 300;
-    border-collapse: collapse;
     text-align: left;
-    border-radius: 15px;
+    margin: 40px;
     -webkit-box-shadow: 0px 0px 13px 18px #85c1e9;
     -moz-box-shadow: 0px 0px 13px 18px #afd6f0;
-    box-shadow: 0px 0px 13px 18px rgba(180, 225, 255, 0.371); }
+    box-shadow: 0px 0px 13px 18px rgba(97, 201, 68, 0.834); }
     section div table thead {
-      background-color: #3498DB;
+      background-color: #3d8231;
       font-family: "Roboto", sans-serif !important;
-      font-weight: 700; }
+      font-weight: 700;
+      text-align: center; }
     section div table tr th {
       padding: 25px; }
-    section div table tr td:hover {
-      background-color: #1F618D; }
+    section div table tr:hover td {
+      font-weight: bold;
+      font-style: italic; }

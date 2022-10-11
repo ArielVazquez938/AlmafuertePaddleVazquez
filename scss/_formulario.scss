@@ -2,13 +2,14 @@
 div {
     .formulario {
         width: 600px;
-        background-color: map-get($palette, "azul4");
-        color: map-get($palette, "blanco");
+        background-color: map-get($palette, "fondoWeb");
+        color: map-get($palette, "negro");
         border-radius: 15px;
         -webkit-box-shadow: 0px 0px 13px 18px rgb(133, 193, 233);
         -moz-box-shadow: 0px 0px 13px 18px rgb(175, 214, 240);
-        box-shadow: 0px 0px 13px 18px rgba(180, 225, 255, 0.371);
+        box-shadow: 0px 0px 13px 18px rgba(97, 201, 68, 0.834);
         padding: $medida-estandar+10;
+        margin: $medida-estandar+10;
     }
 
     label {
@@ -22,17 +23,18 @@ div {
     }
 
     button {
-        background-color: map-get($palette, "azul4");
+        background-color: map-get($palette, "fondoWeb");
         border-radius: 5px;
         border: none;
         padding: 5px;
         text-transform: uppercase;
-        color: map-get($palette, "blanco");
+        color: map-get($palette, "negro");
         font-weight: 700;
 
         &:hover {
-            background-color: map-get($palette, "whatsapp");
-            color: map-get($palette, "negro");
+            -webkit-box-shadow: 0px 0px 7px 10px rgb(133, 193, 233);
+            -moz-box-shadow: 0px 0px 7px 10px rgb(175, 214, 240);
+            box-shadow: 0px 0px 7px 10px rgba(97, 201, 68, 0.834);
         }
     }
 }
