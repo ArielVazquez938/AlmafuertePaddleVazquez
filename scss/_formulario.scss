@@ -3,11 +3,11 @@ div {
     .formulario {
         width: 600px;
         background-color: map-get($palette, "fondoWeb");
-        color: map-get($palette, "negro");
+        color: map-get($palette, "blanco");
         border-radius: 15px;
-        -webkit-box-shadow: 0px 0px 13px 18px rgb(133, 193, 233);
-        -moz-box-shadow: 0px 0px 13px 18px rgb(175, 214, 240);
-        box-shadow: 0px 0px 13px 18px rgba(97, 201, 68, 0.834);
+        -webkit-box-shadow: 0px 0px 13px 18px rgb(26, 82, 213);
+        -moz-box-shadow: 0px 0px 13px 18px rgb(26, 82, 213);
+        box-shadow: 0px 0px 13px 18px rgba(26, 82, 213, 0.971);
         padding: $medida-estandar+10;
         margin: $medida-estandar+10;
     }
@@ -32,9 +32,10 @@ div {
         font-weight: 700;
 
         &:hover {
-            -webkit-box-shadow: 0px 0px 7px 10px rgb(133, 193, 233);
-            -moz-box-shadow: 0px 0px 7px 10px rgb(175, 214, 240);
-            box-shadow: 0px 0px 7px 10px rgba(97, 201, 68, 0.834);
+            -webkit-box-shadow: 0px 0px 7px 10px rgb(26, 82, 213);
+            -moz-box-shadow: 0px 0px 7px 10px rgb(26, 82, 213);
+            box-shadow: 0px 0px 7px 10px rgba(26, 82, 213, 0.971);
+            transition: 0.5s;
         }
     }
 }
